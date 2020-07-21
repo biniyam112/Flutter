@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "745023746437",
+    "firebase_url": "https://password-1d54b.firebaseio.com",
+    "project_id": "password-1d54b",
+    "storage_bucket": "password-1d54b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745023746437:android:48072979f83bb1c6e254ec",
+        "android_client_info": {
+          "package_name": "com.benjamin.password_saver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745023746437-4qso4dq1fbim3vsqjgsjv7csne6ehp9v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLCYiQRRussDNS42gWkmqN6TqM4fAP4qI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745023746437-4qso4dq1fbim3vsqjgsjv7csne6ehp9v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

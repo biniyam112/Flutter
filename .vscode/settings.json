@@ -1,0 +1,9 @@
+{
+    "workbench.colorCustomizations": {
+        "[Material Theme Darker]": {
+            "widget.shadow": "#272727",
+            "descriptionForeground": "#ffffff",
+            "foreground": "#ffffff"
+        }
+    }
+}

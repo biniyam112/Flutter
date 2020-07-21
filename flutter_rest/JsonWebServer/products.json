@@ -1,0 +1,45 @@
+[{
+        "name": "iphone",
+        "description": "there is power in the name",
+        "price": 122,
+        "image": "iphone.png"
+    },
+    {
+        "name": "Laptop",
+        "description": "best product ever",
+        "price": 12334,
+        "image": "laptop.png"
+
+    },
+
+    {
+        "name": "Pending",
+        "description": "dont know shit",
+        "price": 234,
+        "image": "pendrive.png"
+
+    },
+
+    {
+        "name": "Pixel",
+        "description": "better than i-phone",
+        "price": 3000,
+        "image": "pixel.png"
+
+    },
+
+    {
+        "name": "Samsung",
+        "description": "samsung tablet",
+        "price": 243,
+        "image": "tablet.png"
+
+    },
+    {
+        "name": "Floppy-disk",
+        "description": "not used now or ever",
+        "price": 653,
+        "image": "floppydisk.png"
+
+    }
+]

@@ -1,0 +1,15 @@
+{
+    "@@last_modified": "2019-04-19T02:04:09.627551",
+    "title": "Manifestación",
+    "@title": {
+        "description": "Title for the Demo application",
+        "type": "text",
+        "placeholders": {}
+    },
+    "message": "Hola Mundo",
+    "@message": {
+        "description": "Message for the Demo application",
+        "type": "text",
+        "placeholders": {}
+    }
+}
