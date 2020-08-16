@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:furniture_store_app/components/title_text.dart';
 import 'package:furniture_store_app/constants.dart';
 import 'package:furniture_store_app/models/Categories.dart';
+import 'package:furniture_store_app/models/Product.dart';
 import 'package:furniture_store_app/size_config.dart';
 
 class CategoryCard extends StatelessWidget {
@@ -45,9 +46,12 @@ class CategoryCard extends StatelessWidget {
                 left: 0,
                 child: AspectRatio(
                   aspectRatio: 1.15,
-                  child: FadeInImage.assetNetwork(
-                    placeholder: 'assets/spinner.gif',
-                    image: category.image,
+                  child: Hero(
+                    tag: product.id,
+                    child: FadeInImage.assetNetwork(
+                      placeholder: 'assets/spinner.gif',
+                      image: category.image,
+                    ),
                   ),
                 ),
               )
