@@ -46,13 +46,15 @@ class ProductDescriptionandButton extends StatelessWidget {
               product.description,
               style: TextStyle(
                 height: 1.4,
-                color: kPrimaryColor.withOpacity(.7),
+                color: kTextColor.withOpacity(.7),
               ),
             ),
             SizedBox(height: defaultSize * 2),
             SizedBox(
               width: double.infinity,
               child: FlatButton(
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(4)),
                 padding: EdgeInsets.all(defaultSize * 1.6),
                 color: kPrimaryColor,
                 child: Text(
