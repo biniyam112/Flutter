@@ -2,6 +2,8 @@ import 'package:flutter/widgets.dart';
 import 'package:shoping_app/screens/CompleteProfile/complete_profile.dart';
 import 'package:shoping_app/screens/Otp/otp_screen.dart';
 import 'package:shoping_app/screens/Signup/signup_screen.dart';
+import 'package:shoping_app/screens/cart/cart_screen.dart';
+import 'package:shoping_app/screens/details/details_screen.dart';
 import 'package:shoping_app/screens/home/home_screen.dart';
 import 'package:shoping_app/screens/splash/splash_screen.dart';
 
@@ -33,5 +35,11 @@ final Map<String, WidgetBuilder> routes = {
   },
   OtpScreen.routeName: (context) {
     return OtpScreen();
+  },
+  DetailsScreen.routeName: (context) {
+    return DetailsScreen();
+  },
+  CartScreen.routeName: (context) {
+    return CartScreen();
   },
 };

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shoping_app/screens/cart/cart_screen.dart';
 
 import '../../../size_config.dart';
 import 'icon_button_with_counter.dart';
@@ -24,7 +25,9 @@ class CustomAppBarItems extends StatelessWidget {
           ),
           IconbuttonWithCounter(
             iconPath: 'assets/icons/Cart Icon.svg',
-            press: () {},
+            press: () {
+              Navigator.pushNamed(context, CartScreen.routeName);
+            },
           ),
           IconbuttonWithCounter(
             iconPath: 'assets/icons/Bell.svg',

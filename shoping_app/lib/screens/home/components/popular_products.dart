@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shoping_app/components/product_card.dart';
 import 'package:shoping_app/models/products.dart';
+import 'package:shoping_app/screens/details/details_screen.dart';
 
 import '../../../size_config.dart';
 import 'item_section_text.dart';
@@ -30,7 +31,17 @@ class PopularProducts extends StatelessWidget {
                   left: getProportionateScreenWidth(16),
                   top: index.isEven ? getProportionateScreenHeight(20) : 0,
                 ),
-                child: ProductCard(product: demoProducts[index]),
+                child: ProductCard(
+                  product: demoProducts[index],
+                  onPress: () => Navigator.pushNamed(
+                    context,
+                    DetailsScreen.routeName,
+                    arguments: ProductDetailsArguments(
+                      product: demoProducts[index],
+                      context: context,
+                    ),
+                  ),
+                ),
               );
             },
           ),

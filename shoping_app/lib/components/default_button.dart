@@ -19,12 +19,14 @@ class DefaultButton extends StatelessWidget {
       child: FlatButton(
         color: kPrimaryColor,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        child: Text(
-          buttonText,
-          style: TextStyle(
-            color: Colors.white,
-            fontWeight: FontWeight.bold,
-            fontSize: 20,
+        child: Center(
+          child: Text(
+            buttonText,
+            style: TextStyle(
+              color: Colors.white,
+              fontWeight: FontWeight.bold,
+              fontSize: 20,
+            ),
           ),
         ),
         onPressed: onPress,
