@@ -4,7 +4,6 @@ import 'package:flutter_svg/flutter_svg.dart';
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({Key key}) : super(key: key);
 
-  // this is ofter commit
   @override
   Widget build(BuildContext context) {
     return Row(
