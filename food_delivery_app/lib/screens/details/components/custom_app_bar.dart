@@ -6,6 +6,7 @@ class CustomAppBar extends StatelessWidget {
     Key key,
   }) : super(key: key);
 
+  // this is ofter commit
   @override
   Widget build(BuildContext context) {
     return Row(
