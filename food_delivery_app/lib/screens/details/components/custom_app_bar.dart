@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class CustomAppBar extends StatelessWidget {
-  const CustomAppBar({
-    Key key,
-  }) : super(key: key);
+  const CustomAppBar({Key key}) : super(key: key);
 
   // this is ofter commit
   @override
