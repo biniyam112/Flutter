@@ -52,7 +52,7 @@ class Body extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(height: 40),
+              SizedBox(height: 60),
               Text(
                 'Today\'s Best',
                 style: TextStyle(
@@ -60,11 +60,24 @@ class Body extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(height: 20),
+              SizedBox(height: 12),
               TodaysBestCard(),
+              SizedBox(height: 24),
               Container(
                 height: 200,
                 width: double.infinity,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      'Continue Reading',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 22,
+                      ),
+                    )
+                  ],
+                ),
               ),
             ],
           ),
