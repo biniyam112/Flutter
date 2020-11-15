@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'book_card.dart';
+import 'continue_reading_card.dart';
 import 'todays_best_card.dart';
 
 class Body extends StatelessWidget {
@@ -63,26 +64,36 @@ class Body extends StatelessWidget {
               SizedBox(height: 12),
               TodaysBestCard(),
               SizedBox(height: 24),
-              Container(
-                height: 200,
-                width: double.infinity,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Continue Reading',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        fontSize: 22,
-                      ),
-                    )
-                  ],
-                ),
-              ),
+              ContinueReading(),
+              SizedBox(height: 24),
             ],
           ),
         ),
       ),
+    );
+  }
+}
+
+class ContinueReading extends StatelessWidget {
+  const ContinueReading({
+    Key key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'Continue Reading',
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 22,
+          ),
+        ),
+        SizedBox(height: 20),
+        ContinueReadinCard(),
+      ],
     );
   }
 }

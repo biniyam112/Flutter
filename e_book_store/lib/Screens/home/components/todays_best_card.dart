@@ -1,3 +1,4 @@
+import 'package:e_book_store/Screens/details/details_screen.dart';
 import 'package:flutter/material.dart';
 
 class TodaysBestCard extends StatelessWidget {
@@ -48,7 +49,16 @@ class TodaysBestCard extends StatelessWidget {
               bottom: 20,
               left: 52,
               child: InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return DetailsScreen();
+                      },
+                    ),
+                  );
+                },
                 borderRadius: BorderRadius.circular(20),
                 child: Container(
                   padding: EdgeInsets.symmetric(vertical: 10, horizontal: 12),
